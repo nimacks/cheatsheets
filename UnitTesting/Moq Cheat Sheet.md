@@ -14,11 +14,10 @@ Mock productRepoistory= new Mock<IProductRepository>()
 In this example `IProductRepository` is the mocked Type.
 -  **Mock** - is the object that is created when we are given a instance of a mocked type. In the above example our mock is `productRepository`.
 
-#### When to create Mocks?
+### When to create Mocks?
 > 
 Mocks are most useful when used to create objects that you might not have access to in the context of a unit test. For example, database access, external services
 
-----------
 
 ### Common workflow
 
