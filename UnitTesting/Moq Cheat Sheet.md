@@ -48,13 +48,25 @@ This method will determine if the conditions created using `mock.setup` have bee
 
 - `mock.verifyAll()`
 
-This method will determine if a the conditions created using have been met
+This method will determine if all the conditions created using have been met
 
-- `mock.setup` 
+- `mock.setup()` 
 
-[I'm an inline-style link](https://www.google.com)
+
+This method can be used to check if a property has been set to a value.
+
+- `mock.SetupSet()` 
+
+
+This method specifics that all properties on the mock should have property behaviour.The default value will be determine by `Moq.Mock.DefaultValue`
+
+- `mock.SetupAllProperties()`
+
+
 
 ###Examples
+
+##mock.setup()
 
 > This test setups the mock object such that when the method Hello is called it returns true.
 
@@ -63,5 +75,30 @@ This method will determine if a the conditions created using have been met
 	var mock = new Mock<TestClass>();
     mock.Setup(x => x.Hello()).Returns(true);
     Assert.AreEqual(mock.Object.Hello(), true);
+			
+```
+> This test setups the mock object to return null
+
+```c#
+
+	
+	//Arrange
+    var customerToCreateDto = new CustomerToCreateDto 
+                            {FirstName = "Bob", LastName = "Builder"};
+    var mockAddressBuilder = new Mock<ICustomerAddressBuilder>();
+    var mockCustomerRepository = new Mock<ICustomerRepository>();
+
+	mockAddressBuilder
+           .Setup(x => x.From(It.IsAny<CustomerToCreateDto>()))
+           .Returns(() => null);
+
+    var customerService = new CustomerService(
+           mockAddressBuilder.Object, 
+           mockCustomerRepository.Object);
+                
+    //Act
+    customerService.Create(customerToCreateDto);
+
+	//Assert
 			
 ```
