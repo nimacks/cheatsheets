@@ -37,7 +37,7 @@ Mocks are most useful when used to create objects that you might not have access
 
 ###Commonly Used Methods
 
-- **`mock.setup()`**: 
+- `mock.setup()`: 
 
 This method allows you to define conditions and expected results for the test using our mock object
 
@@ -54,6 +54,14 @@ This method will determine if a the conditions created using have been met
 
 [I'm an inline-style link](https://www.google.com)
 
+###Examples
+
+> This test setups the mock object such that when the method Hello is called it returns true.
+
 ```c#
 
+	var mock = new Mock<TestClass>();
+    mock.Setup(x => x.Hello()).Returns(true);
+    Assert.AreEqual(mock.Object.Hello(), true);
+			
 ```
