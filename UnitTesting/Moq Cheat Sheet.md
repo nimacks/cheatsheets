@@ -2,6 +2,8 @@
 
 Moq is a popular & friendly mocking framework for .NET. The API  follows the **arrange-act-assert style** and relies heavily on .NET 3.5 features, such as lambdas and extension methods. 
 
+----------
+
 ###Terms
 
 - **Mocked Type** - is a interface/class we intend to test by creating a fake version of. 
@@ -15,6 +17,8 @@ In this example `IProductRepository` is the mocked Type.
 #### When to create Mocks?
 > 
 Mocks are most useful when used to create objects that you might not have access to in the context of a unit test. For example, database access, external services
+
+----------
 
 ### Common workflow
 
@@ -34,6 +38,8 @@ Mocks are most useful when used to create objects that you might not have access
 
 #### Assert
 > Verify the test 
+
+----------
 
 ###Commonly Used Methods
 
@@ -63,10 +69,12 @@ This method specifics that all properties on the mock should have property behav
 - `mock.SetupAllProperties()`
 
 
+----------
+
 
 ###Examples
 
-##mock.setup()
+####mock.setup()
 
 > This test setups the mock object such that when the method Hello is called it returns true.
 
