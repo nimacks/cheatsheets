@@ -64,5 +64,10 @@ Switching to a new branch
 
 >Then the git reset resets the master branch to what you just fetched. The --hard option changes all the files in your working tree to match the files in origin/master
 
+###### How to Stash changes
+
+- ``` git stash ```
+
+> `git stash` Saves your working directory and index to a safe place. and 2) Restores your working directory and index to the most recent commit.
 
 
