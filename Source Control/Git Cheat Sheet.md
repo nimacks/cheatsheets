@@ -71,3 +71,6 @@ Switching to a new branch
 > `git stash` Saves your working directory and index to a safe place. and 2) Restores your working directory and index to the most recent commit.
 
 
+###### How to delete a remote branch
+
+- ```git push origin --delete <branchName>```
