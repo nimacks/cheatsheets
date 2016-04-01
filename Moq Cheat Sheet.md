@@ -8,9 +8,11 @@ Moq is a popular & friendly mocking framework for .NET. The API  follows the **a
 
 - **Mocked Type** - is a interface/class we intend to test by creating a fake version of. 
 eg. 
-```c# 
+
+` 
 Mock productRepoistory= new Mock<IProductRepository>()
-``` 
+`
+ 
 In this example `IProductRepository` is the mocked Type.
 -  **Mock** - is the object that is created when we are given a instance of a mocked type. In the above example our mock is `productRepository`.
 
