@@ -24,6 +24,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET Core", "ASP.NET Core", "{6BE63FA5-D576-42DC-A31C-0216C4F87BAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{F62C5925-D540-4EFE-ADB4-CB37184019FB}"
+	ProjectSection(SolutionItems) = preProject
+		Xamarin.Android.md = Xamarin.Android.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{AA0CF48B-55F1-4477-BD34-9359ABD7A398}"
 EndProject
