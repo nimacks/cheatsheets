@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{E569C50F-4EF6-43CD-917F-9F853504A93C}"
 	ProjectSection(SolutionItems) = preProject
@@ -31,10 +31,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{AA0CF48B-55F1-4477-BD34-9359ABD7A398}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jquery", "Jquery", "{7C06F4C9-AA32-49C0-AF2D-4D954EA692E3}"
+	ProjectSection(SolutionItems) = preProject
+		JQuery.md = JQuery.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{BA07ECE9-A3F4-4506-BBE3-AB273E308C17}"
 	ProjectSection(SolutionItems) = preProject
-		Cheatsheets\Linq.md = Cheatsheets\Linq.md
+		Linq.md = Linq.md
 	EndProjectSection
 EndProject
 Global
