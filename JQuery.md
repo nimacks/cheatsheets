@@ -9,7 +9,8 @@ $('.cssclass');			// css class
 $('#navigationBar a'); 	// descendants
 $('#body > a'); 		// child nodes
 $('#h2 + div');			// adjacent siblings
-
+```
+```Javascript
 /* Compounds selections */
 =  //is exactly equal
 != //is not equal
@@ -20,14 +21,17 @@ $= //is ends with
 id 
 name
 href
-
+```
+```Javascript
 /* Attribute Selectors */
 $('img[alt]');			    // has attribute set
 $('input[type=text]');		// has attribute value equal to
 $('a[href^=http://]');		// has attribute value starting with
 $('a[href$=.pdf]');		    // has attribute value ending with
 $('a[href*=google.com]'); 	// has attribute value containing
+```
 
+```Javascript
 /* Filters */
 $('tr:even');			    // even elements
 $('.strippedTbl tr:even');	// even elements
@@ -37,8 +41,9 @@ $('a:not([href^=http://])');// elements with exclusion filter
 $('li:has(a)');			    // elements with inclusion filter
 $('a:contains(Click Me!)');	// elements with inclusion text
 $('div:hidden').show();		// elements with hidden filter
+```
 
-
+```Javascript
 // ******** JQUERY METHODS ********
 //***********************************
 
@@ -102,10 +107,10 @@ $("input").attr("disabled", ''); 						// Remove readonly
 $("select").removeAttr("disabled");
 $("input").show();
 $("input").hide();
+```
 
 
-
-
+```Javascript
 // ******** JQUERY Loops ********
 //***********************************
 
@@ -120,7 +125,9 @@ $('#foo').bind('click', myData, functionName);
 var fname = evt.data.firstName;
 $('#foo').bind('click', functionName);
 
+```
 
+```Javascript
 // ******** JQUERY Events ********
 //***********************************
 // Registered as functions (see each above)
@@ -177,7 +184,9 @@ return false;					    // shorthand of preventDefault
 evt.stopPropagation();				    // Prevents parent elements recieving bubble events
 $(document).unbind('click')	
 
+```
 
+```Javascript
 // ******** JQUERY Converters ********
 
 var jsonObj = $.parseJSON(returnedData);             //converts a string into a json object
@@ -191,7 +200,8 @@ var querystring = $.param(mapObj)                    // Used to convert an objec
 console.dir(returnedData);                          //Displays structure of data in json format
 console.log(returnedData);
 
-
+```
+```Javascript
 // ******** JQUERY AJAX ********
 $.ajax([settingsMapObject]);                                 // Performs an asynchronouse regquest  
 

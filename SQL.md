@@ -1,13 +1,13 @@
 #### SQL Cheat Sheet
 
 
-###### Importing CSV files into Sql Server.
+##### Importing CSV files into Sql Server.
 
 
 Create Test Table
 
-	
-		USE TestData
+```sql
+USE TestData
 		GO
 		CREATE TABLE CSVTest
 		(ID INT,
@@ -15,9 +15,13 @@ Create Test Table
 		LastName VARCHAR(40),
 		BirthDate SMALLDATETIME)
 		GO
+
+```	
+		
 	
 	
 Contents of CSV file
+
 
 	1,James,Smith,19750101
 	
@@ -29,15 +33,18 @@ Contents of CSV file
 
 Import Script
 
-	BULK
+```sql
+    BULK
 	INSERT CSVTest
 	FROM 'c:\csvtest.txt'
 	WITH
 	(
-	FIELDTERMINATOR = ',',
-	ROWTERMINATOR = '\n'
+	    FIELDTERMINATOR = ',',
+	    ROWTERMINATOR = '\n'
 	)
 	GO
+```
+	
 
 
 ---

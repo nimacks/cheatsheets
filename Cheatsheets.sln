@@ -5,20 +5,18 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{E569C50F-4EF6-43CD-917F-9F853504A93C}"
 	ProjectSection(SolutionItems) = preProject
-		cheatsheets\Code Review Cheat Sheet.md = cheatsheets\Code Review Cheat Sheet.md
-		cheatsheets\Unity Cheat Sheet.md = cheatsheets\Unity Cheat Sheet.md
+		Unity.md = Unity.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Control", "Source Control", "{99410B79-DCF2-430E-A135-8F683202BE81}"
 	ProjectSection(SolutionItems) = preProject
-		cheatsheets\Code Review Cheat Sheet.md = cheatsheets\Code Review Cheat Sheet.md
-		cheatsheets\Git Cheat Sheet.md = cheatsheets\Git Cheat Sheet.md
+		Git.md = Git.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{047C3C69-E82C-4BD4-A473-2FE885A1EDED}"
 	ProjectSection(SolutionItems) = preProject
-		cheatsheets\Integration Testing Guidelines.md = cheatsheets\Integration Testing Guidelines.md
-		cheatsheets\Moq Cheat Sheet.md = cheatsheets\Moq Cheat Sheet.md
+		Integration-Testing.md = Integration-Testing.md
+		Moq.md = Moq.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET Core", "ASP.NET Core", "{6BE63FA5-D576-42DC-A31C-0216C4F87BAB}"
@@ -38,6 +36,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{BA07ECE9-A3F4-4506-BBE3-AB273E308C17}"
 	ProjectSection(SolutionItems) = preProject
 		Linq.md = Linq.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{48CCB661-6954-4197-9602-952DAE2E4457}"
+	ProjectSection(SolutionItems) = preProject
+		SQL.md = SQL.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{368E83ED-3166-47AF-879D-1224863D849A}"
+	ProjectSection(SolutionItems) = preProject
+		Resharper.md = Resharper.md
 	EndProjectSection
 EndProject
 Global
