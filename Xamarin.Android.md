@@ -1,10 +1,14 @@
 #Xamarin.Android
 
 ###Fundamentals
-Android apps are built on two pillars or foundations.
+Key Concepts
 
 - Activities
 - Views
+- Fragments
+- Intents
+- Adapters
+
 
 
 ####Activities

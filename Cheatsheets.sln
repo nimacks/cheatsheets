@@ -41,6 +41,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{48CCB661-6954-4197-9602-952DAE2E4457}"
 	ProjectSection(SolutionItems) = preProject
 		SQL.md = SQL.md
+		SQL_Views.md = SQL_Views.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{368E83ED-3166-47AF-879D-1224863D849A}"
